@@ -64,7 +64,8 @@ async function main() {
 
   createMainInterface();
   changeTheme();
-  hitCountApi();
+  // Disabled in this fork to avoid sending run/player counters to CounterAPI.
+  // hitCountApi();
 }
 main();
 
@@ -1896,6 +1897,10 @@ function calculateLaunches(
   };
 }
 
+/*
+CounterAPI tracking from the original script is disabled in this fork.
+The original function is kept here as a commented reference.
+
 function hitCountApi() {
   $.getJSON(
     `https://api.counterapi.dev/v1/${countNameSpace}/${countApiKey}/up`,
@@ -1935,6 +1940,7 @@ function hitCountApi() {
     );
   } catch (error) {}
 }
+*/
 
 ///////////////////////////////////////////////////////////////////get all resources from page combined production//////////////////////////////////////////////////
 
