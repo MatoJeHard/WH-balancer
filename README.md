@@ -24,6 +24,7 @@ Balancer 2.0 behavior:
 Added a `cluster groups` selector shown when `Tribal Wars groups` mode is selected.
 
 Controls added:
+<img width="896" height="313" alt="UI change" src="https://github.com/user-attachments/assets/ac8006ff-87dc-4e25-8954-b9e737e7edd2" />
 
 - group search field
 - `refresh` button
